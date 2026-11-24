@@ -186,12 +186,6 @@ Chuông thông báo trên web nhận tin từ một file JSON công khai.
 3. Web đọc file khi mở trang, mỗi **10 phút** và khi mở chuông.
 4. Thông báo mới được lưu vào trình duyệt, nên dù sau này bị xóa khỏi file raw thì người dùng vẫn còn thấy.
 
-**Quy tắc**
-
-- Mỗi thông báo cần một `id` **duy nhất**.
-- Id đã nhận sẽ không hiện lại, kể cả khi người dùng bấm "Xóa hết".
-- GitHub cache file raw khoảng 5 phút nên thông báo mới có thể hiện chậm một chút.
-
 ---
 
 ## Lưu ý quan trọng
