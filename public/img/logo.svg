@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#47b8ff"/>
+      <stop offset=".55" stop-color="#2f6bff"/>
+      <stop offset="1" stop-color="#5b3df5"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#bg)"/>
+  <rect width="48" height="22" rx="12" fill="url(#shine)"/>
+  <g fill="#fff">
+    <circle cx="16.500" cy="19.500" r="5.500"/>
+    <circle cx="24" cy="15" r="7.500"/>
+    <circle cx="31.500" cy="19.500" r="5.500"/>
+    <rect x="16.500" y="19" width="15" height="6"/>
+  </g>
+  <rect x="11" y="28.500" width="26" height="5" rx="2.500" fill="#fff" fill-opacity=".26"/>
+  <rect x="11" y="35.500" width="26" height="5" rx="2.500" fill="#fff" fill-opacity=".26"/>
+  <circle cx="15.500" cy="31" r="1.300" fill="#4ade80"/>
+  <circle cx="15.500" cy="38" r="1.300" fill="#4ade80"/>
+  <rect x="28" y="30.250" width="5.500" height="1.500" rx=".75" fill="#fff" fill-opacity=".8"/>
+  <rect x="28" y="37.250" width="5.500" height="1.500" rx=".75" fill="#fff" fill-opacity=".8"/>
+</svg>
